@@ -14,6 +14,8 @@ namespace PingPong
             ping.Display += v;
             pong.Display += w;
             ping.Hit();
+            
+            Console.ReadKey();
         }
 
         class Pong
